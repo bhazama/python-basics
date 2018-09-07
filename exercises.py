@@ -237,7 +237,8 @@ print(bucket_list)
 #Declare a variable named bruce_bio and assign a tuple containing the following values: Bruce Lee, male, 32, San Francisco, [Kung-Fu Master, actor, philosopher]
 
 #Print the bruce_bio variable.
-
+bruce_bio = ("Bruce Lee", "male", "32", "San Francisco",["Kung-Fu Master", "actor", "philosopher"])
+print(bruce_bio)
 
 #Declare a variable named movies and assign a tuple containing the following values: [The Big Boss, 1971],[Fist of Fury, 1972], [The Way of the Dragon, 1972], [The Game of Death, 1972]
 
