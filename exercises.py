@@ -209,7 +209,13 @@ bank = {
 # - key: highest_revenue string value: Ala Moana Center Food Court
 
 #Print the pandas variable.
-
+pandas = {}
+pandas["name"] = "Panda Express"
+pandas["restaurants"] = 2000
+pandas["cuisine"] = "Gourmet Chinese Food"
+pandas["menu"] = ["Orange Chicken", "Walnut Shrimp", "Sweet and Sour pork"]
+pandas["highest_revenue"] = "Ala Moana Center Food Court"
+print(pandas) 
 
 #Declare a variable named bucket_list and assign it to an EMPTY dictionary.
 #You will add the following key-value pairs:
@@ -220,8 +226,13 @@ bank = {
 # - key: meet_person string value of your choice  
 
 #Print the bucket_list variable.
-
-
+bucket_list = {}
+bucket_list["travel"] = "Brazil"
+bucket_list["learn"] = "cybersecurity"
+bucket_list["weight"] = "same"
+bucket_list["to_dos"] = "none"
+bucket_list["meet person"] = "Adam Ondra"
+print(bucket_list)
 #9 Variable with a Tuple value
 #Declare a variable named bruce_bio and assign a tuple containing the following values: Bruce Lee, male, 32, San Francisco, [Kung-Fu Master, actor, philosopher]
 
